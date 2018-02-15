@@ -1,0 +1,1 @@
+$var='abc'; echo 'test'.$var;

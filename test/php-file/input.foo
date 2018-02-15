@@ -1,0 +1,10 @@
+<?php
+$var='abc';
+echo 'test'.$var;
+?>
+
+<p>Some html</p>
+
+<?php
+echo 'some more php';
+?>

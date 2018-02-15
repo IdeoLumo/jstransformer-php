@@ -1,0 +1,4 @@
+<?php
+$var='abc';
+echo 'test'.$var;
+?>
