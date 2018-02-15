@@ -5,5 +5,8 @@ exports.inputFormats = ['php']
 exports.outputFormat = 'php-html'
 
 exports.render = function (str) {
-  return '<?php\n' + str + '\n?>'
+  if (str.indexOf('\n') === -1) {
+    return '<?php ' + str + ' ?>'
+  }
+  return '\n<?php\n' + str + '\n?>'
 }
